@@ -60,8 +60,7 @@ pdscan --format ndjson
 정규식 룰을 추가하기 위해서는 rule.json 파일의 regexRules 배열에 오브젝트를 추가합니다. 
 예시, 
 ```
-<pre>
-<code>
+
     ...
     {
       "name": "jumin_first",
@@ -69,9 +68,9 @@ pdscan --format ndjson
       "String": "(\\b\\d{6}\\b)"
     }
     ...
-    </code>
-    </pre>
-  ``` 
+
+``` 
+
 name 필드 : (필수) pdscan 내부적으로 처리하는 변수 이름으로 json 형태로 출력시에 name 필드에 들어갈 내용입니다.
 display_name : (필수)pdscan을 이용하여 데이터 출력 시, 출력결과에 나타날 이름입니다.
 String : (필수)검출하기위한 정규식입니다. 특이사항으로 역슬래시(\) 입력을 위해서는 한개의 역슬래시가 아닌 예시 처럼 두개의 역슬래시를 이용해야 정상적으로 처리됩니다.
