@@ -46,13 +46,13 @@ pdscan-win.exe --only email,phone,location
 pdscan-win.exe --except ip,mac
 
 3) 검색된 개인정보의 실제 데이터를 출력 
-pdscan --show-data
+pdscan-win.exe --show-data
 
 4) Confidence에 상관하지 않고 데이터 출력/ 
-pdscan --show-all
+pdscan-win.exe --show-all
 
 5) 출력 포맷 변경
-pdscan --format ndjson 
+pdscan-win.exe --format ndjson 
 ```
 ### 4. 룰 수정
 
