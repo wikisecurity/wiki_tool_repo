@@ -1,4 +1,4 @@
-### 1. pdscan 설명
+### 1. pdscan 요약
 ```
 1)특정 폴더 및 파일 / 각종 DB등에 대해 암호화되지않은 개인정보를 검색할 수 있음.
 2)본 프로그램은 별도의 설치 과정 없이, 실행이 가능함
@@ -13,7 +13,7 @@ pdscan-win.exe elasticsearch+http://user:pass@host:9200
 2. 특정 인덱스 검색
 pdscan-win.exe elasticsearch+http://user:pass@host:9200/index1
 ```
-File 
+File
 ```
 1. 파일 검색 
 pdscan-win.exe file://C:\path\to\file.txt
